@@ -7,6 +7,7 @@ int main()
    // Promt number 2
    long n2 = get_long("number 2: ");
 
+   float z = (float)n1 / (float)n2;
    // Perform addition
-   printf("%li\n", n1 + n2);
+   printf("%.50f\n", z);
 }
